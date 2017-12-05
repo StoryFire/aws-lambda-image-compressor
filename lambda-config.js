@@ -10,8 +10,8 @@ module.exports = {
   handler: 'index.handler',
   description: 'image compressor and resizer',
   role: process.env.IAM_ROLE,
-  functionName: '<function name here>',
-  timeout: 20,
+  functionName: 'storyFire-image-optimizer',
+  timeout: 60,
   memorySize: 256,
   runtime: 'nodejs4.3'
 };
